@@ -4,8 +4,8 @@ using UnityEngine;
 using DG.Tweening;
 
 public class MenuPage : MonoBehaviour {
-
-	public virtual void Initilise() {
+	
+    public virtual void Initilise() {
         gameObject.SetActive(true);
         GetComponent<CanvasGroup>().DOFade(1f, 0.2f);
     }
